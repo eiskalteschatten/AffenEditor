@@ -11,7 +11,10 @@ struct ContentView: View {
     @Binding var document: AffenEditorDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
+        NavigationView {
+            SidebarView()
+            TextEditor(text: $document.text)
+        }
     }
 }
 
