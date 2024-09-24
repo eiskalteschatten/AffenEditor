@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		938279592CA2E7BD003F3951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9382793C2CA2E7BB003F3951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938279432CA2E7BB003F3951;
+			remoteInfo = AffenEditor;
+		};
+		938279632CA2E7BD003F3951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9382793C2CA2E7BB003F3951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938279432CA2E7BB003F3951;
+			remoteInfo = AffenEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		938279442CA2E7BB003F3951 /* AffenEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffenEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		938279582CA2E7BD003F3951 /* AffenEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffenEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938279622CA2E7BD003F3951 /* AffenEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffenEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9382796A2CA2E7BD003F3951 /* Exceptions for "AffenEditor" folder in "AffenEditor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 938279432CA2E7BB003F3951 /* AffenEditor */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		938279462CA2E7BB003F3951 /* AffenEditor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9382796A2CA2E7BD003F3951 /* Exceptions for "AffenEditor" folder in "AffenEditor" target */,
+			);
+			path = AffenEditor;
+			sourceTree = "<group>";
+		};
+		9382795B2CA2E7BD003F3951 /* AffenEditorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AffenEditorTests;
+			sourceTree = "<group>";
+		};
+		938279652CA2E7BD003F3951 /* AffenEditorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AffenEditorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		938279412CA2E7BB003F3951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938279552CA2E7BD003F3951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9382795F2CA2E7BD003F3951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9382793B2CA2E7BB003F3951 = {
+			isa = PBXGroup;
+			children = (
+				938279462CA2E7BB003F3951 /* AffenEditor */,
+				9382795B2CA2E7BD003F3951 /* AffenEditorTests */,
+				938279652CA2E7BD003F3951 /* AffenEditorUITests */,
+				938279452CA2E7BB003F3951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		938279452CA2E7BB003F3951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938279442CA2E7BB003F3951 /* AffenEditor.app */,
+				938279582CA2E7BD003F3951 /* AffenEditorTests.xctest */,
+				938279622CA2E7BD003F3951 /* AffenEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		938279432CA2E7BB003F3951 /* AffenEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9382796B2CA2E7BD003F3951 /* Build configuration list for PBXNativeTarget "AffenEditor" */;
+			buildPhases = (
+				938279402CA2E7BB003F3951 /* Sources */,
+				938279412CA2E7BB003F3951 /* Frameworks */,
+				938279422CA2E7BB003F3951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				938279462CA2E7BB003F3951 /* AffenEditor */,
+			);
+			name = AffenEditor;
+			packageProductDependencies = (
+			);
+			productName = AffenEditor;
+			productReference = 938279442CA2E7BB003F3951 /* AffenEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		938279572CA2E7BD003F3951 /* AffenEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938279702CA2E7BD003F3951 /* Build configuration list for PBXNativeTarget "AffenEditorTests" */;
+			buildPhases = (
+				938279542CA2E7BD003F3951 /* Sources */,
+				938279552CA2E7BD003F3951 /* Frameworks */,
+				938279562CA2E7BD003F3951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9382795A2CA2E7BD003F3951 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9382795B2CA2E7BD003F3951 /* AffenEditorTests */,
+			);
+			name = AffenEditorTests;
+			packageProductDependencies = (
+			);
+			productName = AffenEditorTests;
+			productReference = 938279582CA2E7BD003F3951 /* AffenEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		938279612CA2E7BD003F3951 /* AffenEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938279732CA2E7BD003F3951 /* Build configuration list for PBXNativeTarget "AffenEditorUITests" */;
+			buildPhases = (
+				9382795E2CA2E7BD003F3951 /* Sources */,
+				9382795F2CA2E7BD003F3951 /* Frameworks */,
+				938279602CA2E7BD003F3951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938279642CA2E7BD003F3951 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				938279652CA2E7BD003F3951 /* AffenEditorUITests */,
+			);
+			name = AffenEditorUITests;
+			packageProductDependencies = (
+			);
+			productName = AffenEditorUITests;
+			productReference = 938279622CA2E7BD003F3951 /* AffenEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9382793C2CA2E7BB003F3951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					938279432CA2E7BB003F3951 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					938279572CA2E7BD003F3951 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 938279432CA2E7BB003F3951;
+					};
+					938279612CA2E7BD003F3951 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 938279432CA2E7BB003F3951;
+					};
+				};
+			};
+			buildConfigurationList = 9382793F2CA2E7BB003F3951 /* Build configuration list for PBXProject "AffenEditor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9382793B2CA2E7BB003F3951;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 938279452CA2E7BB003F3951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				938279432CA2E7BB003F3951 /* AffenEditor */,
+				938279572CA2E7BD003F3951 /* AffenEditorTests */,
+				938279612CA2E7BD003F3951 /* AffenEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		938279422CA2E7BB003F3951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938279562CA2E7BD003F3951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938279602CA2E7BD003F3951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		938279402CA2E7BB003F3951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938279542CA2E7BD003F3951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9382795E2CA2E7BD003F3951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9382795A2CA2E7BD003F3951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938279432CA2E7BB003F3951 /* AffenEditor */;
+			targetProxy = 938279592CA2E7BD003F3951 /* PBXContainerItemProxy */;
+		};
+		938279642CA2E7BD003F3951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938279432CA2E7BB003F3951 /* AffenEditor */;
+			targetProxy = 938279632CA2E7BD003F3951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9382796C2CA2E7BD003F3951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AffenEditor/AffenEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AffenEditor/Preview Content\"";
+				DEVELOPMENT_TEAM = MMG5EY7EYL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AffenEditor/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexseifert.AffenEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9382796D2CA2E7BD003F3951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AffenEditor/AffenEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AffenEditor/Preview Content\"";
+				DEVELOPMENT_TEAM = MMG5EY7EYL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AffenEditor/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexseifert.AffenEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9382796E2CA2E7BD003F3951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9382796F2CA2E7BD003F3951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		938279712CA2E7BD003F3951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMG5EY7EYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexseifert.AffenEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AffenEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AffenEditor";
+			};
+			name = Debug;
+		};
+		938279722CA2E7BD003F3951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMG5EY7EYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexseifert.AffenEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AffenEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AffenEditor";
+			};
+			name = Release;
+		};
+		938279742CA2E7BD003F3951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMG5EY7EYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexseifert.AffenEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AffenEditor;
+			};
+			name = Debug;
+		};
+		938279752CA2E7BD003F3951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMG5EY7EYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexseifert.AffenEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AffenEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9382793F2CA2E7BB003F3951 /* Build configuration list for PBXProject "AffenEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382796E2CA2E7BD003F3951 /* Debug */,
+				9382796F2CA2E7BD003F3951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9382796B2CA2E7BD003F3951 /* Build configuration list for PBXNativeTarget "AffenEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382796C2CA2E7BD003F3951 /* Debug */,
+				9382796D2CA2E7BD003F3951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938279702CA2E7BD003F3951 /* Build configuration list for PBXNativeTarget "AffenEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938279712CA2E7BD003F3951 /* Debug */,
+				938279722CA2E7BD003F3951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938279732CA2E7BD003F3951 /* Build configuration list for PBXNativeTarget "AffenEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938279742CA2E7BD003F3951 /* Debug */,
+				938279752CA2E7BD003F3951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9382793C2CA2E7BB003F3951 /* Project object */;
+}
