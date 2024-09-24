@@ -4016,7 +4016,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9363F56C2CA3506C00E632E4 /* Frameworks */ = {
+		936307202CA359C100E632E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -4115,10 +4115,10 @@
 				938279462CA2E7BB003F3951 /* AffenEditor */,
 				9382795B2CA2E7BD003F3951 /* AffenEditorTests */,
 				938279652CA2E7BD003F3951 /* AffenEditorUITests */,
-				9363F56C2CA3506C00E632E4 /* Frameworks */,
 				938279452CA2E7BB003F3951 /* Products */,
 				936302B42CA352FA00E632E4 /* lexilla */,
 				936304F12CA352FA00E632E4 /* scintilla */,
+				936307202CA359C100E632E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -4829,6 +4829,7 @@
 					"$(PROJECT_DIR)/scintilla\\ 3/cocoa/Scintilla/build/Scintilla.build/Release/Scintilla.build/Objects-normal/x86_64/Binary",
 					"$(PROJECT_DIR)/scintilla\\ 3/cocoa/Scintilla/build/Scintilla.build/Release/Scintilla.build/Objects-normal/arm64/Binary",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -4851,6 +4852,7 @@
 					"$(PROJECT_DIR)/scintilla\\ 3/cocoa/Scintilla/build/Scintilla.build/Release/Scintilla.build/Objects-normal/x86_64/Binary",
 					"$(PROJECT_DIR)/scintilla\\ 3/cocoa/Scintilla/build/Scintilla.build/Release/Scintilla.build/Objects-normal/arm64/Binary",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
